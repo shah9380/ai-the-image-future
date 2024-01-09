@@ -1,0 +1,30 @@
+.text-gradient{
+    background: rgb(57,204,255);
+    background: linear-gradient(90deg, rgba(57,204,255,1) 0%, rgba(153,0,241,1) 100%); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.token-housing{
+    background-color: #b1b1b147;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.center-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-button{
+    background: transparent;
+    border: 2px solid rgb(8,176,209);
+}
+.download-button:hover{
+    border: 2px solid rgb(163, 210, 10);
+}
